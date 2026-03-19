@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 export const metadata: Metadata = {
     title: 'NY Regents Review Tutoring Brooklyn | Compassionate Test Prep',
     description:
-        'NY Regents exam prep tutoring in Brooklyn, NY. Pass your Regents exams with confidence. Expert coaching in all Regents subjects. Book a free session.',
+        'NY Regents exam prep tutoring in Brooklyn, NY. Pass your Regents exams with confidence. Expert coaching in all Regents subjects. Contact for a free session.',
     alternates: { canonical: 'https://www.compassionatetestprep.com/regents-review' },
 };
 
@@ -33,7 +33,7 @@ export default function RegentsPage() {
                         <p className="text-white/80 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
                             Expert Regents exam tutoring that helps students pass — and even excel — on New York&apos;s high school graduation requirements.
                         </p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="regents-cta-hero">Book a Free Regents Session</Link>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="regents-cta-hero">Contact for a Free Regents Session</Link>
                     </div>
                 </section>
 
@@ -62,8 +62,8 @@ export default function RegentsPage() {
                 <section className="py-16 px-4 sm:px-6 bg-primary text-center">
                     <div className="max-w-2xl mx-auto">
                         <h2 className="font-heading text-3xl font-bold text-white mb-4">Don&apos;t Leave Graduation to Chance</h2>
-                        <p className="text-white/80 mb-8">Start Regents review early for the best results. Book a free intro session today.</p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="regents-cta-bottom">Book Free Intro Session</Link>
+                        <p className="text-white/80 mb-8">Start Regents review early for the best results. Contact us for a free intro session today.</p>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="regents-cta-bottom">Contact for a Free Session</Link>
                     </div>
                 </section>
             </main>

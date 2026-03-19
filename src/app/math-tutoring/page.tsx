@@ -39,7 +39,7 @@ export default function MathTutoringPage() {
                         <p className="text-white/80 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
                             Trigonometry, statistics, precalculus, and algebra — simplified, explained, and mastered at your student&apos;s pace.
                         </p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="math-cta-hero">Book a Free Math Session</Link>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="math-cta-hero">Contact for a Free Math Session</Link>
                     </div>
                 </section>
 
@@ -77,8 +77,8 @@ export default function MathTutoringPage() {
                 <section className="py-16 px-4 sm:px-6 bg-primary text-center">
                     <div className="max-w-2xl mx-auto">
                         <h2 className="font-heading text-3xl font-bold text-white mb-4">Math Doesn&apos;t Have to Be Hard</h2>
-                        <p className="text-white/80 mb-8">Book a free session and let Josh show your student exactly where they&apos;re stuck — and how to get unstuck.</p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="math-cta-bottom">Book Free Intro Session</Link>
+                        <p className="text-white/80 mb-8">Contact us for a free session and let Josh show your student exactly where they&apos;re stuck — and how to get unstuck.</p>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="math-cta-bottom">Contact for a Free Session</Link>
                     </div>
                 </section>
             </main>

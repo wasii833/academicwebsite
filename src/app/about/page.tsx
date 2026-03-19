@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
@@ -41,11 +42,15 @@ export default function AboutPage() {
                 <section className="py-20 px-4 sm:px-6 bg-surface">
                     <div className="max-w-5xl mx-auto grid md:grid-cols-5 gap-12 items-start">
                         <div className="md:col-span-2">
-                            <div className="bg-bg rounded-2xl aspect-square flex items-center justify-center border-2 border-dashed border-gray-200">
-                                <div className="text-center text-muted p-6">
-                                    <div className="text-6xl mb-3">👤</div>
-                                    <div className="text-sm">Josh&apos;s photo coming soon</div>
-                                </div>
+                            <div className="relative bg-bg rounded-2xl aspect-square overflow-hidden border border-gray-200 shadow-sm">
+                                <Image
+                                    src="/tutor.jpg"
+                                    alt="Josh - Test Prep Tutor"
+                                    fill
+                                    className="object-cover"
+                                    sizes="(max-width: 768px) 100vw, 40vw"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-r from-black/15 to-transparent" />
                             </div>
                             {/* Credentials */}
                             <div className="mt-6 space-y-3">
@@ -88,8 +93,8 @@ export default function AboutPage() {
                                 </p>
                                 <p className="mt-2 text-muted text-sm">— Josh, Founder of Compassionate Test Prep</p>
                             </div>
-                            <div className="mt-8 flex gap-4">
-                                <Link href="/contact" className="btn-primary" id="about-book-cta">Book a Session with Josh</Link>
+                            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                                <Link href="/contact" className="btn-primary" id="about-book-cta">Contact Josh for a Session</Link>
                                 <Link href="/testimonials" className="btn-outline" id="about-testimonials-cta">Read Student Reviews</Link>
                             </div>
                         </div>

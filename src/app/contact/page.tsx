@@ -16,41 +16,18 @@ export default function ContactPage() {
             <main>
                 <section className="bg-primary text-white py-20 px-4 sm:px-6">
                     <div className="max-w-4xl mx-auto text-center">
-                        <h1 className="font-heading text-4xl md:text-5xl font-bold mb-5">Book a Free Intro Session</h1>
+                        <h1 className="font-heading text-4xl md:text-5xl font-bold mb-5">Contact for a Free Intro Session</h1>
                         <p className="text-white/80 text-lg max-w-2xl mx-auto">
-                            No commitment, no pressure. A free 30-minute session to meet Josh, discuss your goals, and see if it&apos;s a great fit.
+                            No commitment, no pressure. Contact us for a free 30-minute session to meet Josh, discuss your goals, and see if it&apos;s a great fit.
                         </p>
                     </div>
                 </section>
 
                 <section className="py-20 px-4 sm:px-6 bg-bg">
-                    <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
-                        {/* Left — Calendly Embed */}
+                    <div className="max-w-2xl mx-auto">
+                        {/* Contact Info + Form */}
                         <div>
-                            <h2 className="font-heading text-2xl font-bold text-primary mb-4">Schedule Online</h2>
-                            <div className="bg-surface rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
-                                {/* Calendly inline embed placeholder — replace href with your real Calendly link */}
-                                <div className="aspect-[4/5] flex items-center justify-center bg-bg text-center p-8">
-                                    <div>
-                                        <div className="text-5xl mb-4">📅</div>
-                                        <p className="text-muted text-sm mb-4">Calendly booking widget will appear here.</p>
-                                        <a
-                                            href="https://calendly.com/your-link"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            id="calendly-link"
-                                            className="btn-primary"
-                                        >
-                                            Open Scheduler
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Right — Contact Info + Form */}
-                        <div>
-                            <h2 className="font-heading text-2xl font-bold text-primary mb-4">Or Send a Message</h2>
+                            <h2 className="font-heading text-2xl font-bold text-primary mb-6 text-center">Send a Message</h2>
                             <form className="space-y-4" id="contact-form" action="#" method="POST">
                                 <div className="grid grid-cols-2 gap-4">
                                     <div>

@@ -8,7 +8,7 @@ import JsonLd from '@/components/JsonLd';
 export const metadata: Metadata = {
     title: 'Expert Test Prep Tutoring in Brooklyn, NY | Compassionate Test Prep',
     description:
-        'SAT, ACT, GMAT, Regents, AP English & math tutoring in Brooklyn, NY. 25+ years experience, 2,000+ students. Book a free intro session today.',
+        'SAT, ACT, GMAT, Regents, AP English & math tutoring in Brooklyn, NY. 25+ years experience, 2,000+ students. Contact for a free intro session today.',
     alternates: { canonical: 'https://www.compassionatetestprep.com' },
 };
 
@@ -106,7 +106,7 @@ export default function HomePage() {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                                 <Link href="/contact" id="hero-cta-primary" className="btn-primary text-base px-8 py-4">
-                                    Book a Free Session
+                                    Contact for a Free Session
                                 </Link>
                                 <Link href="#services" id="hero-cta-secondary" className="btn-outline border-white text-white hover:bg-white hover:text-primary text-base px-8 py-4">
                                     Our Services
@@ -341,13 +341,13 @@ export default function HomePage() {
                         <div className="bg-primary rounded-3xl overflow-hidden grid md:grid-cols-5">
                             <div className="md:col-span-2 relative min-h-[280px]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=600&auto=format&fit=crop&q=80"
+                                    src="/tutor.jpg"
                                     alt="Professional tutor working with a student in Brooklyn, NY"
                                     fill
                                     className="object-cover"
                                     sizes="(max-width: 768px) 100vw, 40vw"
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-r from-transparent to-primary/30" />
+                                <div className="absolute inset-0 bg-gradient-to-r from-black/10 to-transparent" />
                             </div>
                             <div className="md:col-span-3 p-10 text-white">
                                 <span className="text-accent font-semibold text-sm uppercase tracking-wider">Your Tutor</span>
@@ -394,7 +394,7 @@ export default function HomePage() {
                             Book a free 30-minute intro session. No commitment, no pressure — just a conversation about your goals.
                         </p>
                         <Link href="/contact" id="cta-banner-btn" className="inline-flex items-center gap-2 bg-white text-accent font-bold px-8 py-4 rounded-xl hover:bg-white/90 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-base">
-                            Book Your Free Session Today
+                            Contact for Your Free Session
                         </Link>
                     </div>
                 </section>

@@ -33,7 +33,7 @@ export default function ACTPage() {
                         <p className="text-white/80 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
                             Comprehensive ACT coaching covering all four sections. We help students find their optimal strategy for every test format.
                         </p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="act-cta-hero">Book a Free ACT Intro Session</Link>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="act-cta-hero">Contact for a Free ACT Session</Link>
                     </div>
                 </section>
 
@@ -61,16 +61,16 @@ export default function ACTPage() {
                 <section className="py-16 px-4 sm:px-6 bg-surface">
                     <div className="max-w-3xl mx-auto text-center">
                         <h2 className="section-heading mb-4">SAT or ACT — Which is Right for You?</h2>
-                        <p className="text-muted leading-relaxed mb-8">Not sure which test to take? Josh can help you decide. Many students perform significantly better on one vs. the other based on their strengths. Book a free consultation to find out which is right for your student.</p>
-                        <Link href="/contact" className="btn-primary" id="act-sat-compare-cta">Get a Free Test Recommendation</Link>
+                        <p className="text-muted leading-relaxed mb-8">Not sure which test to take? Josh can help you decide. Many students perform significantly better on one vs. the other based on their strengths. Contact us for a free consultation to find out which is right for your student.</p>
+                        <Link href="/contact" className="btn-primary" id="act-sat-compare-cta">Contact for a Recommendation</Link>
                     </div>
                 </section>
 
                 <section className="py-16 px-4 sm:px-6 bg-primary text-center">
                     <div className="max-w-2xl mx-auto">
                         <h2 className="font-heading text-3xl font-bold text-white mb-4">Ready to Tackle the ACT?</h2>
-                        <p className="text-white/80 mb-8">Book your free 30-minute intro session today.</p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="act-cta-bottom">Book Free Intro Session</Link>
+                        <p className="text-white/80 mb-8">Contact us for your free 30-minute intro session today.</p>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="act-cta-bottom">Contact for a Free Session</Link>
                     </div>
                 </section>
             </main>

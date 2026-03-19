@@ -21,7 +21,7 @@ export default function PoliciesPage() {
                         <div className="prose prose-sm text-textMain/80 space-y-3 leading-relaxed">
                             <p>Compassionate Test Prep (&quot;we&quot;, &quot;Josh&quot;) values your privacy. This policy describes how we collect, use, and protect your information when you use our website.</p>
                             <h3 className="font-semibold text-primary">Information We Collect</h3>
-                            <p>When you submit our contact form or book a session, we collect your name, email address, and any information you voluntarily share. We do not sell this data to third parties.</p>
+                            <p>When you submit our contact form or get in touch, we collect your name, email address, and any information you voluntarily share. We do not sell this data to third parties.</p>
                             <h3 className="font-semibold text-primary">How We Use Your Information</h3>
                             <p>We use your information solely to respond to your inquiry, schedule sessions, and communicate about your tutoring services. We do not use your information for marketing without consent.</p>
                             <h3 className="font-semibold text-primary">Cookies</h3>

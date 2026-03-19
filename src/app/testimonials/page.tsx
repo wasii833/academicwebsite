@@ -93,8 +93,8 @@ export default function TestimonialsPage() {
                 <section className="py-16 px-4 sm:px-6 bg-primary text-center">
                     <div className="max-w-2xl mx-auto">
                         <h2 className="font-heading text-3xl font-bold text-white mb-4">Ready to Write Your Own Success Story?</h2>
-                        <p className="text-white/80 mb-8">Book a free 30-minute intro session and see what Compassionate Test Prep can do for you.</p>
-                        <a href="/contact" className="btn-primary text-base px-8 py-4" id="testimonials-cta">Book a Free Session</a>
+                        <p className="text-white/80 mb-8">Contact us for a free 30-minute intro session and see what Compassionate Test Prep can do for you.</p>
+                        <a href="/contact" className="btn-primary text-base px-8 py-4" id="testimonials-cta">Contact for a Free Session</a>
                     </div>
                 </section>
             </main>

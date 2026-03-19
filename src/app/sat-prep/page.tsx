@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 export const metadata: Metadata = {
     title: 'SAT Prep Tutoring Brooklyn NY | Score Guarantee',
     description:
-        'Expert SAT prep tutoring in Brooklyn, NY. Data-driven approach, personalized sessions, and proven results. Students gain 100–250+ points on average. Book free intro.',
+        'Expert SAT prep tutoring in Brooklyn, NY. Data-driven approach, personalized sessions, and proven results. Students gain 100–250+ points on average. Contact for a free session.',
     alternates: { canonical: 'https://www.compassionatetestprep.com/sat-prep' },
 };
 
@@ -40,7 +40,7 @@ export default function SATPage() {
                         <p className="text-white/80 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
                             Personalized, data-driven SAT coaching that targets your specific weak areas. Students gain an average of 100–250+ points.
                         </p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="sat-cta-hero">Book a Free SAT Intro Session</Link>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="sat-cta-hero">Contact for a Free SAT Session</Link>
                     </div>
                 </section>
 
@@ -80,8 +80,8 @@ export default function SATPage() {
                 <section className="py-16 px-4 sm:px-6 bg-primary text-center">
                     <div className="max-w-2xl mx-auto">
                         <h2 className="font-heading text-3xl font-bold text-white mb-4">Start Your SAT Prep Today</h2>
-                        <p className="text-white/80 mb-8">Book a free 30-minute intro session — no commitment, just results.</p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="sat-cta-bottom">Book Free Intro Session</Link>
+                        <p className="text-white/80 mb-8">Contact us for a free 30-minute intro session — no commitment, just results.</p>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="sat-cta-bottom">Contact for a Free Session</Link>
                     </div>
                 </section>
             </main>

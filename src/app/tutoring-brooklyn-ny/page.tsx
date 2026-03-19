@@ -59,7 +59,7 @@ export default function BrooklynLocalPage() {
                                 Born and raised in Brooklyn, Josh has been serving local students with expert SAT, ACT, GMAT, Regents, and math tutoring since 2001. In-person in Brooklyn and online nationwide.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <Link href="/contact" id="local-cta-primary" className="btn-primary text-base px-8 py-4">Book a Free Session</Link>
+                                <Link href="/contact" id="local-cta-primary" className="btn-primary text-base px-8 py-4">Contact for a Free Session</Link>
                                 <a href="tel:+15550000000" id="local-phone-cta" className="btn-outline border-white text-white hover:bg-white hover:text-primary text-base px-8 py-4">
                                     📞 Call Now
                                 </a>
@@ -153,8 +153,8 @@ export default function BrooklynLocalPage() {
                 <section className="py-16 px-4 sm:px-6 bg-primary text-center">
                     <div className="max-w-2xl mx-auto">
                         <h2 className="font-heading text-3xl font-bold text-white mb-4">Brooklyn&apos;s Most Compassionate Tutor</h2>
-                        <p className="text-white/80 mb-8">25+ years. 2,000+ students. Book your free intro session today.</p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="local-cta-bottom">Book Free Intro Session</Link>
+                        <p className="text-white/80 mb-8">25+ years. 2,000+ students. Contact us for a free intro session today.</p>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="local-cta-bottom">Contact for a Free Session</Link>
                     </div>
                 </section>
             </main>

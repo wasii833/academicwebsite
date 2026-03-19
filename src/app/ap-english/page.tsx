@@ -33,7 +33,7 @@ export default function APEnglishPage() {
                         <p className="text-white/80 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
                             Master AP Language & Literature with expert coaching on rhetorical analysis, argument essays, and literary criticism.
                         </p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="ap-cta-hero">Book a Free AP English Session</Link>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="ap-cta-hero">Contact for a Free AP English Session</Link>
                     </div>
                 </section>
 
@@ -64,7 +64,7 @@ export default function APEnglishPage() {
                     <div className="max-w-2xl mx-auto">
                         <h2 className="font-heading text-3xl font-bold text-white mb-4">Score a 4 or 5 on AP English</h2>
                         <p className="text-white/80 mb-8">Expert coaching that builds real writing skills — not just test tricks.</p>
-                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="ap-cta-bottom">Book Free Intro Session</Link>
+                        <Link href="/contact" className="btn-primary text-base px-8 py-4" id="ap-cta-bottom">Contact for a Free Session</Link>
                     </div>
                 </section>
             </main>
