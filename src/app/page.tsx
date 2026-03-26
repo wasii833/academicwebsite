@@ -39,7 +39,7 @@ const testimonials = [
 ];
 
 const faqs = [
-    { q: 'Where are sessions held?', a: 'Sessions are available online and in-person in Brooklyn, NY. Josh works with both local students and students across the country remotely.' },
+    { q: 'Where are sessions held?', a: 'Sessions are available online and in-person in Brooklyn, NY. Josh works with both local students and students worldwide remotely.' },
     { q: 'How many sessions will my child need?', a: "It depends on the student's starting point and target score. Josh will assess your child in the first session and recommend a customized plan. Many students see significant improvement in 8–12 sessions." },
     { q: 'What makes Compassionate Test Prep different?', a: 'Josh uses a proprietary data-driven approach — diagnosing careless vs. knowledge-gap errors, contextualizing scores within historical student data, and building a flexible plan unique to each student.' },
     { q: 'Do you offer a free intro session?', a: 'Yes! Book a free 30-minute intro session to meet Josh, assess your needs, and see if it\'s a good fit — no commitment required.' },
@@ -95,7 +95,7 @@ export default function HomePage() {
                     <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-24 md:py-36 flex flex-col md:flex-row items-center gap-12">
                         <div className="flex-1 text-center md:text-left">
                             <div className="inline-flex items-center gap-2 bg-white/10 text-white/90 text-sm px-4 py-1.5 rounded-full mb-6 font-medium">
-                                📍 Brooklyn, NY &bull; Online Nationwide
+                                📍 Brooklyn, NY &bull; Online Worldwide
                             </div>
                             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
                                 Test Prep That Puts{' '}
@@ -147,7 +147,7 @@ export default function HomePage() {
                 <section id="services" className="py-20 px-4 sm:px-6 bg-bg">
                     <div className="max-w-6xl mx-auto">
                         <div className="text-center mb-12">
-                            <h2 className="section-heading">What We Teach</h2>
+                            <h2 className="section-heading">What We Offer</h2>
                             <p className="section-subheading max-w-2xl mx-auto">
                                 Every subject, one compassionate approach — customized to your student's needs.
                             </p>
@@ -371,7 +371,7 @@ export default function HomePage() {
                     <div className="max-w-4xl mx-auto text-center">
                         <p className="text-muted text-sm">
                             Serving students in{' '}
-                            {['Brooklyn', 'Manhattan', 'Queens', 'Staten Island', 'The Bronx', 'Long Island', 'Online Nationwide'].map((loc, i, arr) => (
+                            {['Brooklyn', 'Manhattan', 'Queens', 'Staten Island', 'The Bronx', 'Long Island', 'Online Worldwide'].map((loc, i, arr) => (
                                 <span key={loc}>
                                     <span className="text-primary font-medium">{loc}</span>
                                     {i < arr.length - 1 ? ' · ' : ''}

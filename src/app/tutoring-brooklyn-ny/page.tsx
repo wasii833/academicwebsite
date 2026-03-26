@@ -56,7 +56,7 @@ export default function BrooklynLocalPage() {
                                 Test Prep Tutor in <span className="text-accent">Brooklyn, NY</span>
                             </h1>
                             <p className="text-white/80 text-lg leading-relaxed mb-8 max-w-2xl">
-                                Born and raised in Brooklyn, Josh has been serving local students with expert SAT, ACT, GMAT, Regents, and math tutoring since 2001. In-person in Brooklyn and online nationwide.
+                                Born and raised in Brooklyn, Josh has been serving local students with expert SAT, ACT, GMAT, Regents, and math tutoring since 2001. In-person in Brooklyn and online worldwide.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <Link href="/contact" id="local-cta-primary" className="btn-primary text-base px-8 py-4">Contact for a Free Session</Link>
@@ -99,7 +99,7 @@ export default function BrooklynLocalPage() {
                                 { icon: '📊', title: 'Data-Driven Results', desc: 'Josh tracks every error with proprietary data to run efficient sessions and deliver consistent score improvements.' },
                                 { icon: '💚', title: 'Compassionate Approach', desc: 'No anxiety, no drill-and-kill. Flexible, supportive tutoring that meets each student where they are.' },
                                 { icon: '🎯', title: 'Targeted Prep', desc: 'Sessions are customized to your student\'s exact gaps — never generic content review.' },
-                                { icon: '🖥️', title: 'In-Person & Online', desc: 'Available for in-person sessions in Brooklyn and remote sessions for students across the country.' },
+                                { icon: '🖥️', title: 'In-Person & Online', desc: 'Available for in-person sessions in Brooklyn and remote sessions for students worldwide.' },
                                 { icon: '✅', title: '25+ Years Proven', desc: '2,000+ students served since 2001. Track record speaks for itself.' },
                             ].map((item) => (
                                 <div key={item.title} className="card">

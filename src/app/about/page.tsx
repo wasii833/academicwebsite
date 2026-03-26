@@ -58,7 +58,7 @@ export default function AboutPage() {
                                     { icon: '📅', label: 'Tutoring Since', val: '2001' },
                                     { icon: '👥', label: 'Students Helped', val: '2,000+' },
                                     { icon: '📍', label: 'Based In', val: 'Brooklyn, NY' },
-                                    { icon: '🌐', label: 'Also Available', val: 'Online Nationwide' },
+                                    { icon: '🌐', label: 'Also Available', val: 'Online Worldwide' },
                                 ].map((item) => (
                                     <div key={item.label} className="flex items-center gap-3 bg-bg rounded-xl px-4 py-3">
                                         <span className="text-xl">{item.icon}</span>
@@ -96,6 +96,7 @@ export default function AboutPage() {
                             <div className="mt-8 flex flex-col sm:flex-row gap-4">
                                 <Link href="/contact" className="btn-primary" id="about-book-cta">Contact Josh for a Session</Link>
                                 <Link href="/testimonials" className="btn-outline" id="about-testimonials-cta">Read Student Reviews</Link>
+                                <a href="https://medium.com/@joshsohn" target="_blank" rel="noopener noreferrer" className="btn-outline" id="about-medium-link">Medium Blog ↗</a>
                             </div>
                         </div>
                     </div>

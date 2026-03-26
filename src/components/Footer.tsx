@@ -47,12 +47,16 @@ export default function Footer() {
                             { href: '/about', label: 'About Josh' },
                             { href: '/testimonials', label: 'Testimonials' },
                             { href: '/tutoring-brooklyn-ny', label: 'Brooklyn Tutoring' },
-                            { href: '/blog', label: 'Blog' },
+                            { href: 'https://medium.com/@joshsohn', label: 'Medium Blog ↗', external: true },
                             { href: '/contact', label: 'Book a Session' },
                             { href: '/policies', label: 'Policies' },
                         ].map((l) => (
                             <li key={l.href}>
-                                <Link href={l.href} className="text-white/70 hover:text-white text-sm transition-colors">
+                                <Link
+                                    href={l.href}
+                                    className="text-white/70 hover:text-white text-sm transition-colors"
+                                    {...(l.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                                >
                                     {l.label}
                                 </Link>
                             </li>
